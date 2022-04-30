@@ -1,0 +1,63 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				-1,
+				-11
+			],
+			"loop_name": "pico",
+			"idle_name": "pico"
+		},
+		{
+			"loop_offsets": [
+				5,
+				-7
+			],
+			"anim": "excited",
+			"idle_offsets": [
+				124,
+				92
+			],
+			"loop_name": "black",
+			"idle_name": "black"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				124,
+				92
+			],
+			"loop_name": "whites",
+			"idle_name": "whites"
+		},
+		{
+			"loop_offsets": [
+				-4,
+				0
+			],
+			"anim": "shocked",
+			"idle_offsets": [
+				124,
+				120
+			],
+			"loop_name": "anger",
+			"idle_name": "anger"
+		}
+	],
+	"image": "pico_dialogue"
+}

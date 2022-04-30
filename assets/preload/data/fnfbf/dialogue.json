@@ -1,0 +1,81 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Hey pico!",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "excited",
+			"text": "Check out this gender-bentinator that i conviently found on my gf's drawer",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "That's cool i guess"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "pissed",
+			"text": "*zaam* ni-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": ""
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": ""
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": ""
+		},
+		{
+			"speed": 0.16,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "i.......uh..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "pico",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": ""
+		},
+		{
+			"speed": 0.075,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "wait what?..... wait a minute where'd my raygun go?"
+		},
+		{
+			"speed": 0.02,
+			"portrait": "pico",
+			"boxState": "angry",
+			"expression": "shocked",
+			"text": "*zaam*"
+		}
+	]
+}

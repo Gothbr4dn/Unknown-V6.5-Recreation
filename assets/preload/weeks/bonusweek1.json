@@ -1,0 +1,48 @@
+{
+	"songs": [
+		[
+			"mekatsune",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"unstoppable",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"pokemoan",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": true,
+	"weekBackground": "",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "collection of bonuses",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

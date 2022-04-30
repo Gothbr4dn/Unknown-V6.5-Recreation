@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gffirstidle.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="danceleft0000" x="0" y="0" width="1500" height="1500"/>
+	<SubTexture name="danceleft0001" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="danceleft0002" x="3000" y="0" width="1500" height="1500"/>
+	<SubTexture name="danceleft0003" x="4500" y="0" width="1500" height="1500"/>
+	<SubTexture name="danceleft0004" x="6000" y="0" width="1500" height="1500"/>
+	<SubTexture name="danceleft0005" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="danceleft0006" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="danceleft0007" x="3000" y="1500" width="1500" height="1500"/>
+	<SubTexture name="danceleft0008" x="4500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="danceleft0009" x="6000" y="1500" width="1500" height="1500"/>
+	<SubTexture name="danceleft0010" x="7500" y="1500" width="0" height="0" frameX="0" frameY="0" frameWidth="1500" frameHeight="1500"/>
+	<SubTexture name="danceright0000" x="0" y="3000" width="1500" height="1500"/>
+	<SubTexture name="danceright0001" x="1500" y="3000" width="1500" height="1500"/>
+	<SubTexture name="danceright0002" x="3000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="danceright0003" x="4500" y="3000" width="1500" height="1500"/>
+	<SubTexture name="danceright0004" x="6000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="danceright0005" x="0" y="4500" width="1500" height="1500"/>
+	<SubTexture name="danceright0006" x="1500" y="4500" width="1500" height="1500"/>
+	<SubTexture name="danceright0007" x="3000" y="4500" width="1500" height="1500"/>
+	<SubTexture name="danceright0008" x="4500" y="4500" width="1500" height="1500"/>
+	<SubTexture name="danceright0009" x="6000" y="4500" width="1500" height="1500"/>
+</TextureAtlas>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gffirstboobabite.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="booba_bite0000" x="0" y="0" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0001" x="1500" y="0" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0002" x="3000" y="0" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0003" x="4500" y="0" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0004" x="6000" y="0" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0005" x="0" y="1500" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0006" x="1500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0007" x="3000" y="1500" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0008" x="4500" y="1500" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0009" x="6000" y="1500" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0010" x="0" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0011" x="1500" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0012" x="3000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0013" x="4500" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0014" x="6000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0015" x="6000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0016" x="6000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0017" x="6000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0018" x="6000" y="3000" width="1500" height="1500"/>
+	<SubTexture name="booba_bite0019" x="0" y="4500" width="1500" height="1500"/>
+</TextureAtlas>
