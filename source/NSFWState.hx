@@ -24,11 +24,15 @@ class NSFWState extends MusicBeatState
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		bg.screenCenter();
 		add(bg);
+
+		#if android
+		addVirtualPad(NONE, A_B);
+		#end
 	}
 
 	override function update(elapsed:Float)
 	{
-		if (FlxG.keys.justPressed.N) {
+		if (FlxG.keys.justPressed.N #if android || _virtualpad.buttonA.justPressed #end) {
 			wasThere = true;	
 			FlxTransitionableState.skipNextTransIn = true;
 			FlxTransitionableState.skipNextTransOut = true;
@@ -42,7 +46,7 @@ class NSFWState extends MusicBeatState
 			});
 		}
 
-		if (FlxG.keys.justPressed.Y) {
+		if (FlxG.keys.justPressed.Y #if android || _virtualpad.buttonB.justPressed #end) {
 			CoolUtil.browserLoad('https://www.patreon.com/Goobler');
 		}
 
