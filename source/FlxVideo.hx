@@ -1,11 +1,7 @@
-#if web
 import openfl.net.NetConnection;
 import openfl.net.NetStream;
 import openfl.events.NetStatusEvent;
 import openfl.media.Video;
-#elseif !web
-import vlc.MP4Handler;
-#end
 import flixel.FlxBasic;
 import flixel.FlxG;
 

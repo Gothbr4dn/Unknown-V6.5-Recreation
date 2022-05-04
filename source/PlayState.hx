@@ -49,7 +49,6 @@ import Achievements;
 import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
-import vlc.MP4Sprite;
 
 #if sys
 import sys.FileSystem;
@@ -1448,11 +1447,6 @@ class PlayState extends MusicBeatState
 				vocals.pause();
 			}
 
-			if (!ClientPrefs.noVideo)
-			{
-				video.bitmap.pause();
-			}
-
 			if (!startTimer.finished)
 				startTimer.active = false;
 			if (finishTimer != null && !finishTimer.finished)
@@ -1490,11 +1484,6 @@ class PlayState extends MusicBeatState
 			if (FlxG.sound.music != null && !startingSong)
 			{
 				resyncVocals();
-			}
-
-			if (!ClientPrefs.noVideo)
-			{
-				video.bitmap.resume();
 			}
 
 			if (!startTimer.finished)
@@ -1581,12 +1570,6 @@ class PlayState extends MusicBeatState
 		Conductor.songPosition = FlxG.sound.music.time;
 		vocals.time = Conductor.songPosition;
 		vocals.play();
-
-		if (!ClientPrefs.noVideo)
-		{
-			var procent = FlxG.sound.music.time / FlxG.sound.music.length;
-			video.bitmap.seek(procent);
-		}
 	}
 
 	private var paused:Bool = false;
@@ -1833,12 +1816,6 @@ class PlayState extends MusicBeatState
 		else
 		{
 			Conductor.songPosition += FlxG.elapsed * 1000;
-
-			if (!ClientPrefs.noVideo)
-			{
-				if (!video.bitmap.isPlaying && !paused && !endingSong)
-					video.bitmap.resume();
-			}
 
 			if (!paused)
 			{
