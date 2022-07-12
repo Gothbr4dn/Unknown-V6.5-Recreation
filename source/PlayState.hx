@@ -1835,7 +1835,7 @@ class PlayState extends MusicBeatState
 
 			if (!ClientPrefs.noVideo)
 			{
-				if (!video.bitmap.isPlaying && !paused && !endingSong)
+				if (!video.bitmap.initComplete && !paused && !endingSong)
 					video.bitmap.resume();
 			}
 
