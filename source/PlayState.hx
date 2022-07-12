@@ -49,7 +49,7 @@ import Achievements;
 import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
-import vlc.MP4Sprite;
+import MP4Sprite;
 
 #if sys
 import sys.FileSystem;
