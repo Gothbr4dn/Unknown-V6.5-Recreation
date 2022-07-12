@@ -46,7 +46,7 @@
 	<!-- PSYCH ENGINE CUSTOMIZATION -->
 	<define name="MODS_ALLOWED" if="desktop || android" />
 	<define name="LUA_ALLOWED" if="windows || android" />
-	<define name="VIDEOS_ALLOWED" if="web || windows || linux || android" unless="32"/>
+	<define name="VIDEOS_ALLOWED" if="web || desktop || android" unless="32"/>
 
 	<!-- <define name="PRELOAD_ALL" /> -->
 	<define name="PRELOAD_ALL" unless="web" />
