@@ -49,7 +49,6 @@ import Achievements;
 import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
-import vlc.MP4Sprite;
 
 #if sys
 import sys.FileSystem;
@@ -250,7 +249,7 @@ class PlayState extends MusicBeatState
 	public var introSoundsSuffix:String = '';
 
 	//video bg bullshits
-	public static var video:MP4Sprite;
+	public static var video:VideoSprite;
 
 	override public function create()
 	{
@@ -368,9 +367,9 @@ class PlayState extends MusicBeatState
 
 		if (!ClientPrefs.noVideo)
 		{
-			video = new MP4Sprite(0, 0);
+			video = new VideoSprite(0, 0);
 			video.antialiasing = ClientPrefs.globalAntialiasing;
-			video.playVideo(Paths.video(Paths.formatToSongPath(SONG.song)), false, false);
+			video.playVideo(Paths.video(Paths.formatToSongPath(SONG.song)), false);
 			video.cameras = [camVIDEO];
 			video.alpha = 0;
 			add(video);
